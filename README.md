@@ -59,15 +59,15 @@ To use the _printf function in your C projects, follow these steps:
 
 - Clone the repository to your local machine:
 
-    ```bash
-    git clone https://github.com/mdawoud27/_printf.git
-    ```
+```bash
+git clone https://github.com/mdawoud27/_printf.git
+```
 - To compile the code and run the example program, you can follow these steps:
 
-    ```bash
-    $ gcc *.c -o main
-    $ ./main
-    ```
+```bash
+$ gcc *.c -o main
+$ ./main
+```
 Use the `_printf` function just like you would use the standard printf function. Pass the format string and any additional arguments as needed.
 
 ## Contributing
