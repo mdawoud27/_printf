@@ -27,11 +27,13 @@ Call the _printf function with the desired format string and arguments.
 
 Example:
 ``` c
-#include "printf.h"
+#include "header.h"
 
 int main() {
     _printf("Hello, %s!\n", "world");
     _printf("Value: %d\n", 42);
+    _printf("%b\n", 98);
+    _printf("Percent:[%%]\n");
     return 0;
 }
 ```
